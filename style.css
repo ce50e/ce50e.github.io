@@ -26,8 +26,10 @@ nav{
 nav ul {
   overflow: hidden;
   list-style: none;
-  margin: 0 auto;
-  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: o;
+  padding: 20px 10pz 0 10px;
 }
 nav li{
   box-sizing: border-box;
@@ -53,7 +55,6 @@ nav li a:hover{
 }
 body{
   margin: 0;
-}
 }
 .main-container{
   overflow: hidden;
