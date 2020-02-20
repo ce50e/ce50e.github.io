@@ -13,7 +13,7 @@ header{
   padding: 30px 20px 10px 20px;
 }
 .header-logo{
-  background : url(logo.png);
+  background : url("pic\logo.png");
   background-repeat: no-repeat;
   height: 120px;
   font-size: 0;
