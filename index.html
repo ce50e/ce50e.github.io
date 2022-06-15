@@ -6,22 +6,10 @@
 	(function() {
 		userAgent = window.navigator.userAgent.toLocaleLowerCase();
 		if (userAgent.indexOf('msie') != -1 || userAgent.indexOf('trident') != -1) {
-    			var response = '{"beacon":"YWxlcnQoIuOBiOOCieOBhOeri+a0vuOBquODluODqeOCpuOCtuS9v+OBo+OBqOOCiuOBr+OCiuOBvuOBmeOBquOBgeOAgiIpOw=="}';
-				var json = JSON.parse(response);
-				var beacon_utf8str = atob(json.beacon);
-				var beacon_raw = '';
-				for (var c in beacon_utf8str) { beacon_raw += '%' + ('0' + beacon_utf8str[c].charCodeAt().toString(16)).slice(-2); }
-				var beacon = decodeURIComponent(beacon_raw);
-				(new Function(beacon))();
-				var e = document.createElement('img');
-				e.src = beacon;
-				e.style.width = '1px';
-				e.style.height = '1px';
-				document.body.appendChild(e);
-			})();
-		}
-
-	</script>
+    			window.alert('ieですね');
+	})();
+}
+</script>
 </HEAD>
 <BODY BGCOLOR="#FFFFCC" >
 
