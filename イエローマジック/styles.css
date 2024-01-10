@@ -34,7 +34,8 @@ body {
 }
 
 .image-section img {
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     height: auto;
     border-radius: 8px;
 }
